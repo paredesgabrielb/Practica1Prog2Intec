@@ -3,6 +3,14 @@
 #include <tchar.h>
 #include <windows.h>
 
+/**
+ * Practica:    No 1
+ * Materia:     Lab. Programacion 2
+ * Autor:       Gabriel Paredes
+ * Id:          1072445
+ * Horario:     Viernes 8-10pm
+ */
+
 // Practica1.cpp :
 //		Programa que desplegue menu con las opciones:
 //			1. Digitar 5 Numeros
@@ -252,7 +260,7 @@ void run() {
                 volverAlMenu();
             }
 			break;
-		case 6:
+		case 6: // Borrar
             if(isFull){
                 numeros[0] = 0;
                 numeros[1] = 0;
@@ -260,6 +268,7 @@ void run() {
                 numeros[3] = 0;
                 numeros[4] = 0;
                 isFull = false;
+                cout << "Se han borrado los datos Exitosamente" << endl;
                 volverAlMenu();
 			}else{
                 cout << "No ha digitado los 5 numeros para elegir esta opcion." << endl << "Elija la Opcion 1 despues de volver al menu" << endl;
