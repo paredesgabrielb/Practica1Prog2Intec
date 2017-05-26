@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1495814941 source:c:\users\gparedes\desktop\trimestre 3\tarea 1\main.cpp
+	<stdio.h>
+	<iostream>
+	<tchar.h>
+	<windows.h>
+
